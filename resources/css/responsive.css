@@ -1,0 +1,101 @@
+@media only screen and (max-width:1050px){
+    .row{
+        margin:0 25px;
+        padding:0 12px;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .hero-text-box{
+    max-width: 90%;
+}
+    .team-member{
+        width:180px;
+        height:180px;
+    }
+    .social-link ul li a:link i::before{
+        width:15px;
+        height: 15px;
+    }
+    .client-photo{
+        float:none;
+        width:100%;
+        text-align: center;
+    }
+    .client-review{
+        float:none;
+        width:80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .contact-section form{
+        width:100%;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width:49.2%;
+    }
+    .span_1_of_5{
+        width:49.2%;
+    }
+     .span_1_of_5:nth-child(3),
+     .span_1_of_5:nth-child(4),
+     .span_1_of_5:nth-child(5){
+         margin-left: 0;
+     }
+     .span_1_of_5:nth-child(5){
+         margin-left: 26%;
+     }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    nav{
+        width:90%;
+    }
+    .main-nav{
+        display:none;
+    }
+}
+@media only screen and ( max-width:768px){
+    .little-description{
+        width:98%;
+        margin-left:1% ;
+    }
+    h1{
+        font-size: 3.5rem;
+        width: 450px;
+    }
+    .span_1_of_2:nth-child(3){
+        margin-left: 0;
+    }
+   h2{
+       font-size: 3rem;
+   }
+    h3{
+        font-size:2rem;
+    }
+}
+@media only screen and ( max-width:480px){
+    .span_1_of_5{
+        width:100%;
+    }
+    .span_1_of_4{
+        width:100%;
+    }
+     .span_1_of_5:nth-child(5){
+         margin-left: 0;
+     }
+     h1{
+         width:100%;
+         font-size: 2.8rem;
+     }
+}
+
+
+
+
